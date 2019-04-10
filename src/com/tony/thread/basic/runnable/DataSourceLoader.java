@@ -1,4 +1,4 @@
-package com.tony.thread.runnable;
+package com.tony.thread.basic.runnable;
 
 import java.util.Date;
 import java.util.concurrent.TimeUnit;

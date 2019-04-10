@@ -1,6 +1,6 @@
-package com.tony.thread.main;
+package com.tony.thread.basic.main;
 
-import com.tony.thread.runnable.Calculator;
+import com.tony.thread.basic.runnable.Calculator;
 
 import java.io.FileWriter;
 import java.io.IOException;

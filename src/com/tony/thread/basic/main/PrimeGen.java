@@ -1,6 +1,6 @@
-package com.tony.thread.main;
+package com.tony.thread.basic.main;
 
-import com.tony.thread.runnable.PrimeGenerator;
+import com.tony.thread.basic.runnable.PrimeGenerator;
 
 public class PrimeGen {
     public static void main(String[] args) {

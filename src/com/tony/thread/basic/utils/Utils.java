@@ -1,4 +1,4 @@
-package com.tony.thread.utils;
+package com.tony.thread.basic.utils;
 
 public class Utils {
     public static boolean isPrime(long num) {

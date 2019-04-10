@@ -1,6 +1,6 @@
-package com.tony.thread.runnable;
+package com.tony.thread.basic.runnable;
 
-import com.tony.thread.utils.Utils;
+import com.tony.thread.basic.utils.Utils;
 
 public class PrimeGenerator extends Thread {
 

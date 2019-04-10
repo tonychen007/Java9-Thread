@@ -1,8 +1,8 @@
-package com.tony.thread.main;
+package com.tony.thread.basic.main;
 
-import com.tony.thread.mo.Event;
-import com.tony.thread.runnable.CleanerTask;
-import com.tony.thread.runnable.WriterTask;
+import com.tony.thread.basic.mo.Event;
+import com.tony.thread.basic.runnable.CleanerTask;
+import com.tony.thread.basic.runnable.WriterTask;
 
 import java.util.Deque;
 import java.util.concurrent.ConcurrentLinkedDeque;

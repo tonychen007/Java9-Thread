@@ -1,6 +1,6 @@
-package com.tony.thread.runnable;
+package com.tony.thread.basic.runnable;
 
-import com.tony.thread.mo.Event;
+import com.tony.thread.basic.mo.Event;
 
 import java.util.Date;
 import java.util.Deque;

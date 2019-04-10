@@ -1,4 +1,4 @@
-package com.tony.thread.mo;
+package com.tony.thread.basic.mo;
 
 import java.util.Date;
 

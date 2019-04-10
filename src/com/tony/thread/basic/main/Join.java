@@ -1,7 +1,7 @@
-package com.tony.thread.main;
+package com.tony.thread.basic.main;
 
-import com.tony.thread.runnable.DataSourceLoader;
-import com.tony.thread.runnable.NetworkLoader;
+import com.tony.thread.basic.runnable.DataSourceLoader;
+import com.tony.thread.basic.runnable.NetworkLoader;
 
 import java.util.Date;
 

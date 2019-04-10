@@ -1,4 +1,4 @@
-package com.tony.thread.runnable;
+package com.tony.thread.basic.runnable;
 
 public class ParseInt implements Runnable {
     @Override

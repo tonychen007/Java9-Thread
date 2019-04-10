@@ -1,4 +1,4 @@
-package com.tony.thread.exception;
+package com.tony.thread.basic.exception;
 
 public class ExceptionHanlder implements Thread.UncaughtExceptionHandler {
     @Override

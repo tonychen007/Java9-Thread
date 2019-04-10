@@ -1,4 +1,4 @@
-package com.tony.thread.main;
+package com.tony.thread.basic.main;
 
 public class Other {
     private static String output = "";

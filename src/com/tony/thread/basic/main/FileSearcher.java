@@ -1,6 +1,6 @@
-package com.tony.thread.main;
+package com.tony.thread.basic.main;
 
-import com.tony.thread.runnable.FileSearch;
+import com.tony.thread.basic.runnable.FileSearch;
 
 import java.util.concurrent.TimeUnit;
 
