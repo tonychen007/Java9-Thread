@@ -47,7 +47,9 @@ public class CompletionFutureTest {
 
         System.out.printf("Main: Launching step 2\n");
         CompletableFuture<Long> step2Future = startFuture
-                .thenApplyAsync(list -> list.stream().max(Long::compare).get());
+                .thenApplyAsync(list ->
+                        list.stream().max(Long::compare).get()
+                );
         CompletableFuture<Void> write2Future = step2Future
                 .thenAccept(selected -> {
                     System.out.printf("%s: Step 2: Result - %d\n", Thread.currentThread().getName(), selected);

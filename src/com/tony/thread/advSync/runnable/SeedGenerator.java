@@ -15,11 +15,11 @@ public class SeedGenerator implements Runnable {
         System.out.printf("SeedGenerator: Generating seed...\n");
         // Wait 5 seconds
         try {
-            TimeUnit.SECONDS.sleep(5);
+            TimeUnit.SECONDS.sleep(1);
         } catch (InterruptedException e) {
 
         }
-        int seed = (int) Math.rint(Math.random() * 10);
+        int seed = (int) Math.rint(Math.random() * 10) + 1;
         System.out.printf("SeedGenerator: Seed generated: %d\n", seed);
         resultCommunicator.complete(seed);
     }
